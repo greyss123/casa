@@ -8,10 +8,10 @@ var especificacionesSchema = Schema({
         ref: "Home"
     },
 
-    c
-    },
-    foto: String
-})
+    categoria : String,
+    precio: {
+        type: Number
+  
 //Nombre, precio, descripción, fechaderegistro, fotografía del producto
 
 const especificaciones = mongoose.model("Especificaciones", especificacionesSchema);
