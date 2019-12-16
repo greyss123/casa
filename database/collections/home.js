@@ -5,11 +5,7 @@ var homeSchema = new Schema({
   clientehome: {
     type: Schema.Types.ObjectId,
     ref: "Clientehome"},
-  propietario : String,
-  descripcion : String,
-  precio : Number,
-  contacto: String,
-
+  
   zona : String,
   calle : String,
   telefono : Number,
