@@ -8,14 +8,7 @@ var especificacionesSchema = Schema({
         ref: "Home"
     },
 
-    categoria : String,
-    precio: {
-        type: Number
-    },
-    descripcion: String,
-    fechaRegistro: {
-        type: Date,
-        default: Date.now()
+    c
     },
     foto: String
 })
