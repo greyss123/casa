@@ -20,16 +20,3 @@ var caracteristicasSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "Especificaciones"
   },
-  precios : Number,
-  //aumenytar ateibutos
-  Fecha_Registro:
-    {
-      type:Date,
-      default: Date.now()
-
-    },
-
-pago_total : Number,
-});
-var caracteristicas = mongoose.model("Caracteristicas", caracteristicasSchema);
-module.exports = caracteristicas;
