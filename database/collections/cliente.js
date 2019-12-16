@@ -1,7 +1,7 @@
 const mongoose = require("../connect");
 var mon = require('mongoose');
 var Schema = mon.Schema;
-var clientehomeSchema = new Schema({
+var clienteSchema = new Schema({
   nombre : String,
   ci : String,
   telefono : Number,
@@ -13,5 +13,5 @@ var clientehomeSchema = new Schema({
   },
   tipo : String
 });
-var clientehome = mongoose.model("ClienteHome", clientehomeSchema);
-module.exports = clientehome;
+var cliente = mongoose.model("Cliente", clienteSchema);
+module.exports = cliente;
